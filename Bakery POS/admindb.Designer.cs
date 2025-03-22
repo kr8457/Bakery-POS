@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            label5 = new Label();
             panel4 = new Panel();
             label6 = new Label();
             label7 = new Label();
@@ -55,18 +54,6 @@
             panel3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             SuspendLayout();
-            // 
-            // label5
-            // 
-            label5.AutoSize = true;
-            label5.BackColor = Color.White;
-            label5.Font = new Font("Segoe UI", 10.2F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label5.ForeColor = Color.Black;
-            label5.Location = new Point(87, 270);
-            label5.Name = "label5";
-            label5.Size = new Size(102, 23);
-            label5.TabIndex = 10;
-            label5.Text = "Today Sales";
             // 
             // panel4
             // 
@@ -233,7 +220,6 @@
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.FromArgb(0, 119, 182);
-            Controls.Add(label5);
             Controls.Add(panel4);
             Controls.Add(panel5);
             Controls.Add(panel2);
@@ -254,11 +240,9 @@
             panel3.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ResumeLayout(false);
-            PerformLayout();
         }
 
         #endregion
-        private Label label5;
         private Panel panel4;
         private Label label6;
         private Label label7;

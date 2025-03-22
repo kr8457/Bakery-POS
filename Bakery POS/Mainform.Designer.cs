@@ -40,7 +40,6 @@
             pictureBox1 = new PictureBox();
             label5 = new Label();
             panel1 = new Panel();
-            admindb1 = new admindb();
             cuiCalendarDatePicker2 = new CuoreUI.Controls.cuiCalendarDatePicker();
             cuiCalendarDatePicker1 = new CuoreUI.Controls.cuiCalendarDatePicker();
             cuiColorPicker1 = new CuoreUI.Components.cuiColorPicker(components);
@@ -49,6 +48,7 @@
             cuiControlAnimator3 = new CuoreUI.Components.cuiControlAnimator();
             cuiControlAnimator4 = new CuoreUI.Components.cuiControlAnimator();
             cuiControlAnimator5 = new CuoreUI.Components.cuiControlAnimator();
+            admindb1 = new admindb();
             panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             panel1.SuspendLayout();
@@ -323,14 +323,6 @@
             panel1.TabIndex = 1;
             panel1.Paint += panel1_Paint;
             // 
-            // admindb1
-            // 
-            admindb1.BackColor = Color.Yellow;
-            admindb1.Location = new Point(0, 0);
-            admindb1.Name = "admindb1";
-            admindb1.Size = new Size(1625, 941);
-            admindb1.TabIndex = 61;
-            // 
             // cuiCalendarDatePicker2
             // 
             cuiCalendarDatePicker2.BackColor = Color.IndianRed;
@@ -436,6 +428,14 @@
             cuiControlAnimator5.EasingType = CuoreUI.Drawing.EasingTypes.QuadInOut;
             cuiControlAnimator5.TargetControl = Reports_btn;
             cuiControlAnimator5.TargetLocation = new Point(37, 541);
+            // 
+            // admindb1
+            // 
+            admindb1.BackColor = Color.FromArgb(255, 192, 192);
+            admindb1.Location = new Point(0, 0);
+            admindb1.Name = "admindb1";
+            admindb1.Size = new Size(1625, 941);
+            admindb1.TabIndex = 61;
             // 
             // Mainform
             // 
