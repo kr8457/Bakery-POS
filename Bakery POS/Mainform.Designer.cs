@@ -323,6 +323,14 @@
             panel1.TabIndex = 1;
             panel1.Paint += panel1_Paint;
             // 
+            // admindb1
+            // 
+            admindb1.BackColor = Color.LimeGreen;
+            admindb1.Location = new Point(0, 0);
+            admindb1.Name = "admindb1";
+            admindb1.Size = new Size(1625, 941);
+            admindb1.TabIndex = 61;
+            // 
             // cuiCalendarDatePicker2
             // 
             cuiCalendarDatePicker2.BackColor = Color.IndianRed;
