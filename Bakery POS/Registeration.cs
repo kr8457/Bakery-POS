@@ -9,7 +9,7 @@ namespace Bakery_POS
     public partial class Registeration : Form
     {
         // Database connection string
-        private string connectionString = "server=localhost;database=mydb;user=root;password=khalid;";
+        private string connectionString = "server=localhost;database=mydb;user=root;password=m4gn3t4r;";
 
         public Registeration()
         {
