@@ -177,7 +177,6 @@
             Adduser_btn.Size = new Size(234, 35);
             Adduser_btn.TabIndex = 53;
             Adduser_btn.TextOffset = new Point(0, 0);
-            Adduser_btn.Click += Adminaddusers;
             // 
             // Addprod_btn
             // 
@@ -214,7 +213,6 @@
             Addprod_btn.Size = new Size(234, 35);
             Addprod_btn.TabIndex = 54;
             Addprod_btn.TextOffset = new Point(0, 0);
-            Addprod_btn.Click += adminaddproducts;
             // 
             // addcategories_btn
             // 
@@ -251,7 +249,6 @@
             addcategories_btn.Size = new Size(234, 35);
             addcategories_btn.TabIndex = 55;
             addcategories_btn.TextOffset = new Point(0, 0);
-            addcategories_btn.Click += adminaddcategories;
             // 
             // Dashboatrd_btn
             // 
@@ -288,7 +285,6 @@
             Dashboatrd_btn.Size = new Size(234, 35);
             Dashboatrd_btn.TabIndex = 52;
             Dashboatrd_btn.TextOffset = new Point(0, 0);
-            Dashboatrd_btn.Click += Admin_db;
             // 
             // pictureBox1
             // 
@@ -309,7 +305,6 @@
             label5.Size = new Size(143, 23);
             label5.TabIndex = 9;
             label5.Text = "Welcome Admin";
-            label5.Click += label5_Click;
             // 
             // panel1
             // 
@@ -321,7 +316,6 @@
             panel1.Name = "panel1";
             panel1.Size = new Size(1375, 795);
             panel1.TabIndex = 1;
-            panel1.Paint += panel1_Paint;
             // 
             // cuiCalendarDatePicker2
             // 
@@ -431,7 +425,7 @@
             // 
             // admindb1
             // 
-            admindb1.BackColor = Color.FromArgb(255, 192, 192);
+            admindb1.BackColor = Color.FromArgb(0, 119, 182);
             admindb1.Location = new Point(0, 0);
             admindb1.Name = "admindb1";
             admindb1.Size = new Size(1625, 941);
