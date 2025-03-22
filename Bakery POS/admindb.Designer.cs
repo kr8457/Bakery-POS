@@ -141,7 +141,6 @@
             panel2.Name = "panel2";
             panel2.Size = new Size(252, 110);
             panel2.TabIndex = 8;
-            panel2.Paint += panel2_Paint;
             // 
             // label3
             // 
@@ -226,7 +225,6 @@
             Controls.Add(panel3);
             Name = "admindb";
             Size = new Size(1300, 753);
-            Load += admindb_Load;
             panel4.ResumeLayout(false);
             panel4.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox3).EndInit();

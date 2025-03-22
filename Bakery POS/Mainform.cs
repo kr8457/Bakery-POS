@@ -48,42 +48,5 @@ namespace Bakery_POS
             }
         }
 
-
-
-        private void Admin_db(object sender, EventArgs e)
-        {
-
-            LoadControl(new admindb());
-        }
-
-        private void Adminaddusers(object sender, EventArgs e)
-        {
-            LoadControl(new AdminAddUser());
-        }
-
-        private void adminaddcategories(object sender, EventArgs e)
-        {
-            LoadControl(new AdminAddCategories());
-        }
-
-        private void adminaddproducts(object sender, EventArgs e)
-        {
-            LoadControl(new AdminAddProducts());
-        }
-
-        private void panel1_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
-
-        private void label5_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void admindb1_Load(object sender, EventArgs e)
-        {
-
-        }
     }
 }
