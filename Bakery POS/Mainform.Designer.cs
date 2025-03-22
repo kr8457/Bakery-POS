@@ -325,7 +325,7 @@
             // 
             // admindb1
             // 
-            admindb1.BackColor = Color.Teal;
+            admindb1.BackColor = Color.SpringGreen;
             admindb1.Location = new Point(0, 0);
             admindb1.Name = "admindb1";
             admindb1.Size = new Size(1625, 941);
