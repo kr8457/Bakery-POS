@@ -413,7 +413,7 @@
             cuiControlAnimator3.Duration = 1000;
             cuiControlAnimator3.EasingType = CuoreUI.Drawing.EasingTypes.QuadInOut;
             cuiControlAnimator3.TargetControl = Addprod_btn;
-            cuiControlAnimator3.TargetLocation = new Point(37, 373);
+            cuiControlAnimator3.TargetLocation = new Point(37, 386);
             // 
             // cuiControlAnimator4
             // 
