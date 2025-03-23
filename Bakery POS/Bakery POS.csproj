@@ -14,6 +14,7 @@
     <PackageReference Include="CuoreUI.Winforms" Version="2025.3.3" />
     <PackageReference Include="Mook.UI" Version="3.1.4" />
     <PackageReference Include="MySql.Data" Version="9.2.0" />
+    <PackageReference Include="WinForms.DataVisualization" Version="1.10.0" />
   </ItemGroup>
 
   <ItemGroup>
