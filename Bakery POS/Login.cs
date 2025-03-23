@@ -73,30 +73,6 @@ namespace Bakery_POS
                 }
             }
 
-
-            //        object result = cmd.ExecuteScalar();
-
-            //        if (result != null)
-            //        {
-            //            string storedPassword = result.ToString();
-
-            //            if (password == storedPassword) // Plain text comparison (not secure)
-            //            {
-            //                MessageBox.Show("Login Successful!");
-            //                this.Hide();
-            //                Mainform mainform = new Mainform();
-            //                mainform.Show();
-            //            }
-            //            else
-            //            {
-            //                MessageBox.Show("Invalid Username or Password.");
-            //            }
-            //        }
-            //        else
-            //        {
-            //            MessageBox.Show("Invalid Username or Password.");
-            //        }
-            //    }
             catch (Exception ex)
             {
                 MessageBox.Show("Error: " + ex.Message);
