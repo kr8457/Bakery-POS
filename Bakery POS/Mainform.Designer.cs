@@ -40,7 +40,6 @@
             pictureBox1 = new PictureBox();
             label5 = new Label();
             panel1 = new Panel();
-            admindb1 = new admindb();
             cuiCalendarDatePicker2 = new CuoreUI.Controls.cuiCalendarDatePicker();
             cuiCalendarDatePicker1 = new CuoreUI.Controls.cuiCalendarDatePicker();
             cuiColorPicker1 = new CuoreUI.Components.cuiColorPicker(components);
@@ -313,21 +312,12 @@
             // panel1
             // 
             panel1.BackColor = Color.FromArgb(0, 119, 182);
-            panel1.Controls.Add(admindb1);
             panel1.Controls.Add(cuiCalendarDatePicker2);
             panel1.Controls.Add(cuiCalendarDatePicker1);
             panel1.Location = new Point(317, 2);
             panel1.Name = "panel1";
             panel1.Size = new Size(1375, 795);
             panel1.TabIndex = 1;
-            // 
-            // admindb1
-            // 
-            admindb1.BackColor = Color.FromArgb(0, 119, 182);
-            admindb1.Location = new Point(0, 0);
-            admindb1.Name = "admindb1";
-            admindb1.Size = new Size(1625, 941);
-            admindb1.TabIndex = 61;
             // 
             // cuiCalendarDatePicker2
             // 

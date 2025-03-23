@@ -59,6 +59,8 @@
             button2 = new Button();
             label1 = new Label();
             dataGridView2 = new DataGridView();
+            iconDropDownButton1 = new FontAwesome.Sharp.IconDropDownButton();
+            iconSplitButton1 = new FontAwesome.Sharp.IconSplitButton();
             panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
             panel3.SuspendLayout();
@@ -409,6 +411,28 @@
             dataGridView2.Size = new Size(411, 356);
             dataGridView2.TabIndex = 3;
             // 
+            // iconDropDownButton1
+            // 
+            iconDropDownButton1.DropDownItems.AddRange(new ToolStripItem[] { iconSplitButton1 });
+            iconDropDownButton1.IconChar = FontAwesome.Sharp.IconChar.None;
+            iconDropDownButton1.IconColor = Color.Black;
+            iconDropDownButton1.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            iconDropDownButton1.Name = "iconDropDownButton1";
+            iconDropDownButton1.Size = new Size(23, 23);
+            iconDropDownButton1.Text = "iconDropDownButton1";
+            // 
+            // iconSplitButton1
+            // 
+            iconSplitButton1.Flip = FontAwesome.Sharp.FlipOrientation.Normal;
+            iconSplitButton1.IconChar = FontAwesome.Sharp.IconChar.None;
+            iconSplitButton1.IconColor = Color.Black;
+            iconSplitButton1.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            iconSplitButton1.IconSize = 48;
+            iconSplitButton1.Name = "iconSplitButton1";
+            iconSplitButton1.Rotation = 0D;
+            iconSplitButton1.Size = new Size(158, 24);
+            iconSplitButton1.Text = "iconSplitButton1";
+            // 
             // CashierOrder
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
@@ -463,5 +487,7 @@
         private Label label12;
         private Label label11;
         private TextBox textBox1;
+        private FontAwesome.Sharp.IconDropDownButton iconDropDownButton1;
+        private FontAwesome.Sharp.IconSplitButton iconSplitButton1;
     }
 }
