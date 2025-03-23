@@ -36,33 +36,43 @@ namespace Bakery_POS
             try
             {
                 connection.Open();
-                string query = "SELECT password FROM users WHERE username = @username;";
+                string query = "SELECT password, role FROM users WHERE username = @username;";
                 MySqlCommand cmd = new MySqlCommand(query, connection);
                 cmd.Parameters.AddWithValue("@username", username);
 
-                object result = cmd.ExecuteScalar();
-
-                if (result != null)
+                using (MySqlDataReader reader = cmd.ExecuteReader())
                 {
-                    string storedPassword = result.ToString();
-
-                    if (password == storedPassword) // Plain text comparison (not secure)
+                    if (reader.Read())
                     {
-                        MessageBox.Show("Login Successful!");
-                        this.Hide();
-                        Mainform mainform = new Mainform();
-                        mainform.Show();
+                        string storedPassword = reader.GetString(0);
+                        string status = reader.GetString(1);
+                        if (password == storedPassword)
+                        {
+                            MessageBox.Show("Login Successful!");
+                            this.Hide();
+                            if (status == "Admin")
+                            {
+                                Mainform mainform = new Mainform();
+                                mainform.Show();
+                            }
+                            else
+                            {
+                                CashierMainform cashierMainform = new CashierMainform();
+                                cashierMainform.Show();
+                            }
+                        }
+                        else
+                        {
+                            MessageBox.Show("Invalid Username or Password.");
+                        }
                     }
                     else
                     {
                         MessageBox.Show("Invalid Username or Password.");
                     }
                 }
-                else
-                {
-                    MessageBox.Show("Invalid Username or Password.");
-                }
             }
+
             catch (Exception ex)
             {
                 MessageBox.Show("Error: " + ex.Message);
