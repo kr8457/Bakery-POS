@@ -32,7 +32,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Assets\NewFolder\" />
+    <Folder Include="Assets\readme-images\" />
   </ItemGroup>
 
 </Project>
