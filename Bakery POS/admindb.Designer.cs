@@ -57,11 +57,25 @@
             lbl_totalprofit = new Label();
             chart1 = new System.Windows.Forms.DataVisualization.Charting.Chart();
             chart2 = new System.Windows.Forms.DataVisualization.Charting.Chart();
+            panel4 = new Panel();
+            label6 = new Label();
+            label2 = new Label();
+            label4 = new Label();
+            label7 = new Label();
+            label8 = new Label();
+            label9 = new Label();
+            label10 = new Label();
+            panel5 = new Panel();
+            label15 = new Label();
+            dataGridView1 = new DataGridView();
             panel2.SuspendLayout();
             panel3.SuspendLayout();
             panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)chart1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)chart2).BeginInit();
+            panel4.SuspendLayout();
+            panel5.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
             SuspendLayout();
             // 
             // mySqlCommand1
@@ -147,7 +161,7 @@
             // 
             // btn_ok
             // 
-            btn_ok.Location = new Point(592, 4);
+            btn_ok.Location = new Point(593, 4);
             btn_ok.Name = "btn_ok";
             btn_ok.Size = new Size(50, 29);
             btn_ok.TabIndex = 10;
@@ -218,7 +232,7 @@
             panel1.Controls.Add(lbl_totalprofit);
             panel1.Location = new Point(804, 58);
             panel1.Name = "panel1";
-            panel1.Size = new Size(468, 77);
+            panel1.Size = new Size(513, 77);
             panel1.TabIndex = 14;
             // 
             // label3
@@ -248,13 +262,13 @@
             legend1.Docking = System.Windows.Forms.DataVisualization.Charting.Docking.Top;
             legend1.Name = "Legend1";
             chart1.Legends.Add(legend1);
-            chart1.Location = new Point(14, 141);
+            chart1.Location = new Point(15, 141);
             chart1.Name = "chart1";
             series1.ChartArea = "ChartArea1";
             series1.Legend = "Legend1";
             series1.Name = "Series1";
             chart1.Series.Add(series1);
-            chart1.Size = new Size(736, 274);
+            chart1.Size = new Size(862, 274);
             chart1.TabIndex = 15;
             chart1.Text = "chart1";
             title1.Alignment = ContentAlignment.TopLeft;
@@ -262,15 +276,16 @@
             title1.Name = "Title1";
             title1.Text = "Gross Revenue";
             chart1.Titles.Add(title1);
+            
             // 
             // chart2
             // 
             chartArea2.Name = "ChartArea1";
             chart2.ChartAreas.Add(chartArea2);
-            legend2.Docking = System.Windows.Forms.DataVisualization.Charting.Docking.Top;
+            legend2.Docking = System.Windows.Forms.DataVisualization.Charting.Docking.Bottom;
             legend2.Name = "Legend1";
             chart2.Legends.Add(legend2);
-            chart2.Location = new Point(770, 141);
+            chart2.Location = new Point(882, 141);
             chart2.Name = "chart2";
             series2.ChartArea = "ChartArea1";
             series2.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Doughnut;
@@ -279,14 +294,129 @@
             series2.Legend = "Legend1";
             series2.Name = "Series1";
             chart2.Series.Add(series2);
-            chart2.Size = new Size(381, 274);
+            chart2.Size = new Size(435, 563);
             chart2.TabIndex = 16;
             chart2.Text = "chart2";
             title2.Alignment = ContentAlignment.TopLeft;
             title2.Font = new Font("Microsoft Sans Serif", 13.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
             title2.Name = "Title1";
-            title2.Text = "Gross Revenue";
+            title2.Text = "Top 5 Products";
             chart2.Titles.Add(title2);
+            // 
+            // panel4
+            // 
+            panel4.Controls.Add(label9);
+            panel4.Controls.Add(label10);
+            panel4.Controls.Add(label7);
+            panel4.Controls.Add(label8);
+            panel4.Controls.Add(label6);
+            panel4.Controls.Add(label2);
+            panel4.Controls.Add(label4);
+            panel4.Location = new Point(15, 430);
+            panel4.Name = "panel4";
+            panel4.Size = new Size(275, 279);
+            panel4.TabIndex = 17;
+            // 
+            // label6
+            // 
+            label6.AutoSize = true;
+            label6.Font = new Font("Segoe UI", 18F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label6.Location = new Point(3, 0);
+            label6.Name = "label6";
+            label6.Size = new Size(196, 41);
+            label6.TabIndex = 13;
+            label6.Text = "Total Counter";
+            // 
+            // label2
+            // 
+            label2.AutoSize = true;
+            label2.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label2.Location = new Point(17, 50);
+            label2.Name = "label2";
+            label2.Size = new Size(154, 20);
+            label2.TabIndex = 11;
+            label2.Text = "Number of Customers";
+            // 
+            // label4
+            // 
+            label4.AutoSize = true;
+            label4.Font = new Font("Segoe UI", 18F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label4.Location = new Point(41, 70);
+            label4.Name = "label4";
+            label4.Size = new Size(130, 41);
+            label4.TabIndex = 12;
+            label4.Text = "1000000";
+            // 
+            // label7
+            // 
+            label7.AutoSize = true;
+            label7.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label7.Location = new Point(17, 128);
+            label7.Name = "label7";
+            label7.Size = new Size(146, 20);
+            label7.TabIndex = 14;
+            label7.Text = "Number of Suppliers";
+            // 
+            // label8
+            // 
+            label8.AutoSize = true;
+            label8.Font = new Font("Segoe UI", 18F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label8.Location = new Point(41, 148);
+            label8.Name = "label8";
+            label8.Size = new Size(130, 41);
+            label8.TabIndex = 15;
+            label8.Text = "1000000";
+            // 
+            // label9
+            // 
+            label9.AutoSize = true;
+            label9.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label9.Location = new Point(17, 213);
+            label9.Name = "label9";
+            label9.Size = new Size(142, 20);
+            label9.TabIndex = 16;
+            label9.Text = "Number of Products";
+            // 
+            // label10
+            // 
+            label10.AutoSize = true;
+            label10.Font = new Font("Segoe UI", 18F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label10.Location = new Point(41, 233);
+            label10.Name = "label10";
+            label10.Size = new Size(130, 41);
+            label10.TabIndex = 17;
+            label10.Text = "1000000";
+            // 
+            // panel5
+            // 
+            panel5.Controls.Add(dataGridView1);
+            panel5.Controls.Add(label15);
+            panel5.Location = new Point(331, 430);
+            panel5.Name = "panel5";
+            panel5.Size = new Size(546, 279);
+            panel5.TabIndex = 18;
+            // 
+            // label15
+            // 
+            label15.AutoSize = true;
+            label15.Font = new Font("Segoe UI", 18F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label15.Location = new Point(3, 0);
+            label15.Name = "label15";
+            label15.Size = new Size(297, 41);
+            label15.TabIndex = 13;
+            label15.Text = "Products UnderStock";
+            // 
+            // dataGridView1
+            // 
+            dataGridView1.AllowUserToAddRows = false;
+            dataGridView1.AllowUserToDeleteRows = false;
+            dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dataGridView1.Location = new Point(21, 50);
+            dataGridView1.Name = "dataGridView1";
+            dataGridView1.ReadOnly = true;
+            dataGridView1.RowHeadersWidth = 51;
+            dataGridView1.Size = new Size(500, 188);
+            dataGridView1.TabIndex = 19;
             // 
             // admindb
             // 
@@ -294,6 +424,8 @@
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.FromArgb(0, 119, 182);
             BorderStyle = BorderStyle.FixedSingle;
+            Controls.Add(panel5);
+            Controls.Add(panel4);
             Controls.Add(chart2);
             Controls.Add(chart1);
             Controls.Add(panel1);
@@ -319,6 +451,11 @@
             panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)chart1).EndInit();
             ((System.ComponentModel.ISupportInitialize)chart2).EndInit();
+            panel4.ResumeLayout(false);
+            panel4.PerformLayout();
+            panel5.ResumeLayout(false);
+            panel5.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
             ResumeLayout(false);
         }
 
@@ -344,5 +481,16 @@
         private Label lbl_totalprofit;
         private System.Windows.Forms.DataVisualization.Charting.Chart chart1;
         private System.Windows.Forms.DataVisualization.Charting.Chart chart2;
+        private Panel panel4;
+        private Label label2;
+        private Label label4;
+        private Label label6;
+        private Label label9;
+        private Label label10;
+        private Label label7;
+        private Label label8;
+        private Panel panel5;
+        private DataGridView dataGridView1;
+        private Label label15;
     }
 }
