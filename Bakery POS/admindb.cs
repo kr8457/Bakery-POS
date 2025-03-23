@@ -16,5 +16,10 @@ namespace Bakery_POS
         {
             InitializeComponent();
         }
+
+        private void admindb_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
