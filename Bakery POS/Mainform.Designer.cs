@@ -413,7 +413,7 @@
             cuiControlAnimator3.Duration = 1000;
             cuiControlAnimator3.EasingType = CuoreUI.Drawing.EasingTypes.QuadInOut;
             cuiControlAnimator3.TargetControl = Addprod_btn;
-            cuiControlAnimator3.TargetLocation = new Point(37, 386);
+            cuiControlAnimator3.TargetLocation = new Point(37, 374);
             // 
             // cuiControlAnimator4
             // 
@@ -423,7 +423,7 @@
             cuiControlAnimator4.Duration = 1000;
             cuiControlAnimator4.EasingType = CuoreUI.Drawing.EasingTypes.QuadInOut;
             cuiControlAnimator4.TargetControl = addcategories_btn;
-            cuiControlAnimator4.TargetLocation = new Point(37, 466);
+            cuiControlAnimator4.TargetLocation = new Point(37, 461);
             // 
             // cuiControlAnimator5
             // 
@@ -433,7 +433,7 @@
             cuiControlAnimator5.Duration = 1000;
             cuiControlAnimator5.EasingType = CuoreUI.Drawing.EasingTypes.QuadInOut;
             cuiControlAnimator5.TargetControl = Reports_btn;
-            cuiControlAnimator5.TargetLocation = new Point(37, 541);
+            cuiControlAnimator5.TargetLocation = new Point(37, 548);
             // 
             // Mainform
             // 
