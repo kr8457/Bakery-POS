@@ -292,7 +292,7 @@
             // pictureBox1
             // 
             pictureBox1.Image = Properties.Resources.Administrator_Male;
-            pictureBox1.Location = new Point(115, 33);
+            pictureBox1.Location = new Point(106, 33);
             pictureBox1.Name = "pictureBox1";
             pictureBox1.Size = new Size(108, 110);
             pictureBox1.TabIndex = 10;
@@ -303,7 +303,7 @@
             label5.AutoSize = true;
             label5.Font = new Font("Segoe UI", 10.2F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label5.ForeColor = Color.White;
-            label5.Location = new Point(94, 156);
+            label5.Location = new Point(84, 146);
             label5.Name = "label5";
             label5.Size = new Size(143, 23);
             label5.TabIndex = 9;
