@@ -3,6 +3,7 @@ namespace Bakery_POS
     internal static class Program
     {
         /// <summary>
+        /// // just for fuun 
         ///  The main entry point for the application.
         /// </summary>
         [STAThread]
