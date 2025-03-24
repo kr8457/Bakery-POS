@@ -32,6 +32,7 @@
             // cuiGradientBorder1
             // 
             cuiGradientBorder1.BackColor = Color.Transparent;
+            cuiGradientBorder1.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
             cuiGradientBorder1.ForeColor = Color.Crimson;
             cuiGradientBorder1.GradientAngle = 0F;
             cuiGradientBorder1.Location = new Point(7, 2);
@@ -47,15 +48,18 @@
             // 
             // textBox2
             // 
+            textBox2.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
             textBox2.Location = new Point(102, 306);
             textBox2.Multiline = true;
             textBox2.Name = "textBox2";
             textBox2.Size = new Size(291, 38);
             textBox2.TabIndex = 71;
             textBox2.Click += showpasswordcheckBox_CheckedChanged;
+            textBox2.TextChanged += textBox2_TextChanged;
             // 
             // textBox1
             // 
+            textBox1.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
             textBox1.Location = new Point(102, 194);
             textBox1.Multiline = true;
             textBox1.Name = "textBox1";

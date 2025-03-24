@@ -103,12 +103,17 @@ namespace Bakery_POS
             }
         }
 
-       
+
 
 
         private void showpasswordcheckBox_CheckedChanged(object sender, EventArgs e)
         {
-            textBox2.PasswordChar = showpasswordcheckBox.Checked ? '\0' : '*';
+            textBox2.PasswordChar = showpasswordcheckBox.Checked ? '\0' : '\u2022';
+        }
+
+        private void textBox2_TextChanged(object sender, EventArgs e)
+        {
+            textBox2.PasswordChar = showpasswordcheckBox.Checked ? '\0' : '\u2022';
         }
     }
 }
