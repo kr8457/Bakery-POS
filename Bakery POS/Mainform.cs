@@ -15,6 +15,8 @@ namespace Bakery_POS
         public Mainform()
         {
             InitializeComponent();
+            label5.Text = "Welcome, " + Login.UserName + "(" + Login.Role + ")";
+
         }
 
         private void LoadControl(UserControl control)
