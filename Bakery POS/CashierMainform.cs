@@ -29,7 +29,13 @@ namespace Bakery_POS
 
         private void button1_Click_1(object sender, EventArgs e)
         {
-
+            {
+                if (MessageBox.Show("Are you sure you want to close?", "Confirmation Message"
+             , MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
+                {
+                    Application.Exit();
+                }
+            }
         }
     }
 }
