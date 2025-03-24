@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
+
 namespace Bakery_POS
 {
     public partial class CashierMainform : Form
@@ -15,6 +16,7 @@ namespace Bakery_POS
         public CashierMainform()
         {
             InitializeComponent();
+            label5.Text = "Welcome, " + Login.UserName + "(" + Login.Role + ")";
         }
 
         private void button1_Click(object sender, EventArgs e)

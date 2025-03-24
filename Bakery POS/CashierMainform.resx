@@ -117,4 +117,37 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="Dashboatrd_btn.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAABGdBTUEAALGPC/xhBQAAAg1JREFUaEPt
+        mgFNA0EURL8EJCABCUhAAg7AAThAAjgAB+AAHIADcACZpEN+Jy2dodv2LulLNundvdn7e937aQhVRyxO
+        q+q1qp4Xn2fJeVV9VtX3YuAzzs2Km7aAp8XgMa5NnpOqemxF37Zr+MzzcOBOkrOqel8U+rVmG+EcrsGB
+        i8ykuGzvw9uGFxvX4PC9QZbwG9OxF+7bDR/04hqwreAyhzmALmAvC2Fr5c36k3VBhvk+F9Hj4fTW+rHl
+        XkcWc6z6BvR4KFftBi+Dug/mwFycF/cAO1nIX611FNqihy8EXz/3MNrnhQoDwdxs0UMXkrTWUfQWjfGf
+        RrLEXZsM7XLE++CiLRq1xGCSbVvrKK5bHajJfpi9tWKvbtNaR4Ea+N6gto017aK1jmJdi14CUv+pgTFV
+        eo2oeelh99Y6l4WwVtT+C1odBvbeXBaCWlEztttK5rKQjdjigbDrs8UDYddniwfCrs8WD4Rdny0KzKUj
+        xc7ZoqAFuiPFztmikOZSn9g5WxTSXOoTO2eLQppLfWLnbFFIc6lP7JwtCmku9Ymds0UhzaU+sXO2KKS5
+        1Cd2zhaFNJf6xM7ZopDmUp/YOVsU0lzqEztni0KaS31i52xRSHOpT+ycLQppLvWJnbNFIc2lPrFztiik
+        udQnds4WhTSX+sTO2aKQ5lKf2DmKUx8b6X8onurAv4QcObIPfgAKTKnuDbYJoAAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <metadata name="cuiColorPicker1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <metadata name="cuiControlAnimator1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>179, 17</value>
+  </metadata>
+  <metadata name="cuiControlAnimator2.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>377, 17</value>
+  </metadata>
+  <metadata name="cuiControlAnimator3.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>575, 17</value>
+  </metadata>
+  <metadata name="cuiControlAnimator4.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>773, 17</value>
+  </metadata>
+  <metadata name="cuiControlAnimator5.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 58</value>
+  </metadata>
 </root>

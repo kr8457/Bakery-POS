@@ -52,6 +52,7 @@
             textBox2.Name = "textBox2";
             textBox2.Size = new Size(291, 38);
             textBox2.TabIndex = 71;
+            textBox2.PasswordChar = '\u2022';
             textBox2.Click += showpasswordcheckBox_CheckedChanged;
             // 
             // textBox1

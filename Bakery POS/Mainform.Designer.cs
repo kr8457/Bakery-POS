@@ -304,7 +304,7 @@
             label5.AutoSize = true;
             label5.Font = new Font("Segoe UI", 10.2F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label5.ForeColor = Color.White;
-            label5.Location = new Point(84, 146);
+            label5.Location = new Point(71, 146);
             label5.Name = "label5";
             label5.Size = new Size(143, 23);
             label5.TabIndex = 9;
@@ -324,6 +324,7 @@
             // admindb1
             // 
             admindb1.BackColor = Color.FromArgb(0, 119, 182);
+            admindb1.BorderStyle = BorderStyle.FixedSingle;
             admindb1.Location = new Point(0, 0);
             admindb1.Name = "admindb1";
             admindb1.Size = new Size(1625, 941);
