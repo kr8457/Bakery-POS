@@ -8,29 +8,6 @@ namespace Bakery_POS
     {
         private MySqlConnection connection;
 
-        //these will be used in the cashier mainform role and name of the user
-        private static string USERNAME = string.Empty; //set to empty otherwise we get CS8618 warning
-        private static string ROLE = string.Empty;
-
-
-        public static string UserName
-        {
-            get
-            {
-                return USERNAME;
-            }
-        }
-        public static string Role
-        {
-            get
-            {
-                return ROLE;
-            }
-        }
-
-
-
-
         public Login()
         {
             InitializeComponent();
@@ -75,15 +52,15 @@ namespace Bakery_POS
                             this.Hide();
                             if (status == "Admin")
                             {
-                                ROLE = "Admin";
-                                USERNAME = username;
+                                UserSession.Role = "Admin";
+                                UserSession.UserName = username;
                                 Mainform mainform = new Mainform();
                                 mainform.Show();
                             }
                             else
                             {
-                                ROLE = "Cashier";
-                                USERNAME = username;
+                                UserSession.Role = "Cashier";
+                                UserSession.UserName = username;
                                 CashierMainform cashierMainform = new CashierMainform();
                                 cashierMainform.Show();
                             }
@@ -138,7 +115,15 @@ namespace Bakery_POS
             textBox2.PasswordChar = showpasswordcheckBox.Checked ? '\0' : '\u2022';
         }
     }
+
+    public static class UserSession
+    {
+        // These will be used in the cashier mainform for role and username
+        public static string UserName { get; set; } = string.Empty;
+        public static string Role { get; set; } = string.Empty;
+    }
+
+
 }
 
 
-       

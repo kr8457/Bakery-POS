@@ -16,7 +16,7 @@ namespace Bakery_POS
         public CashierMainform()
         {
             InitializeComponent();
-            label5.Text = "Welcome, " + Login.UserName + "(" + Login.Role + ")";
+            label5.Text = "Welcome, " + UserSession.UserName + "(" + UserSession.Role + ")";
         }
 
         private void button1_Click(object sender, EventArgs e)
